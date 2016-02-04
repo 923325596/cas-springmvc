@@ -6,3 +6,15 @@
 * 单点登录支持内外网隔离
 ·
 
+
+cas和springmvc集成步骤
+1）maven依赖
+···
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-webmvc</artifactId>
+	<version>${spring.version}</version>
+</dependency>
+···
+2）springmvc的配置
+3）cas单点配置
